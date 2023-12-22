@@ -34,10 +34,9 @@ pip install confluent_kafka
 ```
 This will install Flask for the webserver and confluent_kafka for Kafka integration.
 ## Running the Application
+After created the topic in kafka with the name "streamingTopic"
 
 ### Start the Web Server
-After created the topic in kafka with the name "streamingTopic",
-
 Launch the Flask web server:
 
 ```bash
