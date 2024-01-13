@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesktopWeb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
+
+</head>
+<body class="body">
+    <header style="padding-left: 0.3vw; padding-top: 0.2vw;">
+        <div class="brand"><a href="index.html" target="_blank"><img id="brand" width="100%" src="{{ url_for('static', filename='assets/img/brand-name-dark.png') }}" alt="Brand Name"></a></div>
+        <div title="Check this project on github!" class="github-project"><a href="https://github.com/PeppinoTechTrends/DeskWeb" target="_blank"><img id="github_icon" width="100%" src="{{ url_for('static', filename='assets/img/github-dark-icon.png') }}" alt="Github Icon"></a></div>
+        <div title="Switch Light/Dark Mode" class="change-theme-mode"> 
+			<img id="theme_icon" src="{{ url_for('static', filename='assets/img/dark-mode-icon.png') }}" width="100%" alt="Change Theme Icon">
+			</div>    
+    </header>
+
+    <div class="credits">
+        <div class="frontend"><a href="https://github.com/Tommiiks" target="_blank"><img width="100%" src="{{ url_for('static', filename='assets/img/credits-frontend.png') }}" alt="Credits Fronted"></a></div>
+        <div class="backend"><a href="https://github.com/PeppinoTechTrends" target="_blank"><img width="100%" src="{{ url_for('static', filename='assets/img/credits.backend.png') }}" alt="Credits Backend"></a></div>
+    </div>
+    <div class="desktop-container">
+        <div class="desktop-content">
+           
+        <h1>Stream Desktop</h1>
+        <img src="/video_feed" width="1600" height="900" />
+            <div class="volume-control">
+                <input type="range" min="0" max="1" step="0.1" value="1" id="volumeSlider">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
