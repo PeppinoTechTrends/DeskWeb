@@ -49,4 +49,5 @@ After the web server is running, you can start the client:
 java -jar [path_to_jar]/DeskWebClient.jar
 Make sure to replace [path_to_jar] with the actual path to the DeskWeb client JAR file.
 ```
+I would like to thank [Tommiiks](https://github.com/Tommiiks) for the frontend work.
 
