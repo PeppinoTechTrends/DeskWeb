@@ -40,7 +40,7 @@ After created the topic in kafka with the name "streamingTopic"
 Launch the Flask web server:
 
 ```bash
-flask run --app DeskWebFlask.py
+python DeskWebFlask.py
 ```
 ### Start the Client
 After the web server is running, you can start the client:
